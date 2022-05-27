@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/appartementFragment"
+            android:title="Liste des appartements" />
+        <item
+            android:id="@+id/lmmeubleFragment"
+            android:title="Liste des immeubles" />
+        <item
+            android:id="@+id/residentFragment"
+            android:title="Liste des residents" />
+
+        <item
+            android:id="@+id/revenuFragment"
+            android:title="Revenus" />
+    </group>
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/addAppartement"
+        android:orderInCategory="100"
+        android:title="Nouvel Appartement"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addLmmeuble"
+        android:orderInCategory="100"
+        android:title="Nouvel Immeuble"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/addResident"
+        android:orderInCategory="100"
+        android:title="Nouveau Resident"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addRevenu"
+        android:orderInCategory="100"
+        android:title="Nouveau Revenu"
+        app:showAsAction="never" />
+
+
+</menu>
